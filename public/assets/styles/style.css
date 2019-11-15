@@ -1,54 +1,71 @@
 body {
-    background: url("burger.jpg");
-    background-repeat: no-repeat;
-      background-size: 100%;
-      font-family: 'Barriecito', cursive;
-    font-weight: 400;
-      color: rgb(182, 21, 155);
-      
-    }
+  background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url('https://ctl.s6img.com/society6/img/AcXR_F0ds0VlG5QpC7p_7q8xqY0/w_1500/shams/swatch/~artwork,fw_6105,fh_3500,fy_-2116,iw_6105,ih_7732/s6-original-art-uploads/society6/uploads/misc/6a84968b6e1c44149e9d3538750542b9/~~/retro-80s-shapes-pattern-shams.jpg') center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  font-family: 'Tomorrow', sans-serif;
+  font-weight: 400;
+  color: rgb(182, 21, 155);
+}
   
-    h1{
-      font-size: 40px;
-      text-decoration: underline
-    }
+h1 {
+  font-size: 40px;
+}
   
-    h2 {
-      font-size: 22px
-    }
+h2 {
+  text-align: center;
+  border: 2px outset aqua;
+  font-size: 22px;
+  background-color: aqua;
+}
   
-    li {
-      padding: 5px;
-      margin: 5px;
-      list-style: none;
-      font-size: 24px
-    }
+li {
+  padding: 5px;
+  margin: 5px;
+  list-style: none;
+  font-size: 24px
+}
     
-    .label {
-      font-weight: bold;
-    }
-    
-    .create-update-form {
-      padding: 5px;
-      margin: 5px;
-      background: aqua;
-    }
-    
-    .form-group {
-      margin-bottom: 5px;
-      font-size: 20px
-    }
-  
-    p {
-      font-size: 20px;
-    }
-  
-  .container {
-    display: inline-block;
-    text-align: center;
+.label {
     font-weight: bold;
-    margin-left: 300px;
-    /* background: white;
-    opacity: 0.5; */
+}
+    
+.create-update-form {
+  padding: 5px;
+  margin: 5px;
+  background: aqua;
+}
+    
+.form-group {
+  margin-bottom: 5px;
+  font-size: 20px
+}
   
-  }
+p {
+  font-size: 20px;
+}
+
+#devouredContainer {
+  color: #201148;
+  float: right;
+  padding: 20px;
+  margin: 15px;
+  border: 5px outset #00ccfd;
+  background: linear-gradient(#ff34b3, #2011a2);
+}
+
+#addBurgerForm {
+  color: #201148;
+  float: left;
+  margin: 15px;
+  border: 5px outset #00ccfd;
+  background: linear-gradient(#ff34b3, #2011a2);
+}
+  
+/* .container {
+  display: inline-block;
+  text-align: center;
+  font-weight: bold;
+  margin-left: 300px;
+  } */
