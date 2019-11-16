@@ -1,1 +1,3 @@
-# burger
+# Burger Functionality:
+
+ ![](functionality.gif)
