@@ -47,20 +47,33 @@ p {
 }
 
 #devouredContainer {
+  text-align: center;
   color: #201148;
+  font-weight: bold;
   float: right;
   padding: 20px;
   margin: 15px;
   border: 5px outset #00ccfd;
+  box-shadow: 0 0 30px #55e7ff;
   background: linear-gradient(#ff34b3, #2011a2);
 }
 
 #addBurgerForm {
+  text-align: center;
   color: #201148;
+  font-weight: bold;
   float: left;
+  padding-bottom: 15px;
   margin: 15px;
   border: 5px outset #00ccfd;
-  background: linear-gradient(#ff34b3, #2011a2);
+  box-shadow: 0 0 30px #55e7ff;
+  background: linear-gradient(#2011a2, #ff34b3);
+}
+
+img {
+  bottom: 0;
+  float: left;
+  margin: 15px;
 }
   
 /* .container {
