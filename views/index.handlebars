@@ -5,6 +5,7 @@
 
 <h1>Burger Time!</h1>
 
+<h2>Non-Devoured Burgers</h2>
 <ul id="notDevoured">
   {{#each burgers}}
     {{#unless this.devoured}}
@@ -41,7 +42,7 @@
     <input type="radio" name="devoured" value="0"> Not Devoured!
   </div>
 
-  <button type="submit">Add Burger</button>
+  <button id="addBurger" type="submit">Add Burger</button>
 
 </form>
 

@@ -75,6 +75,11 @@ img {
   margin: 20px;
   margin-top: 40px;
 }
+
+#addBurger, .change-devour, .delete-burger {
+  border: 5px outset #00ccfd;
+  background-color: #55e7ff;
+}
   
 /* .container {
   display: inline-block;
