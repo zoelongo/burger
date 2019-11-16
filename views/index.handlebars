@@ -5,7 +5,6 @@
 
 <h1>Burger Time!</h1>
 
-<h2>Non-Devoured Burgers</h2>
 <ul id="notDevoured">
   {{#each burgers}}
     {{#unless this.devoured}}
@@ -42,16 +41,12 @@
     <input type="radio" name="devoured" value="0"> Not Devoured!
   </div>
 
-  <button id="submitBurger" type="submit">Add Burger</button>
+  <button type="submit">Add Burger</button>
 
 </form>
 
-<div id="burgerSet">
-
-  <img src="./assets/styles/pixelburgerTransparent.png" alt="8 bit pixel burger" id="burger1" width="175" height="150">
-  <img src="./assets/styles/pixelburgerTransparent.png" alt="8 bit pixel burger" id="burger2" width="175" height="150">
-  <img src="./assets/styles/pixelburgerTransparent.png" alt="8 bit pixel burger" id="burger3" width="175" height="150">
-
-</div>
+<img src="./assets/styles/pixelburgerTransparent.png" alt="8 bit pixel burger" height="200" width="170">
+<img src="./assets/styles/pixelburgerTransparent.png" alt="8 bit pixel burger" height="200" width="170">
+<img src="./assets/styles/pixelburgerTransparent.png" alt="8 bit pixel burger" height="200" width="170">
 
 </div>

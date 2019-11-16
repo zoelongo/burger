@@ -6,6 +6,7 @@ body {
     background-size: cover;
   font-family: 'Tomorrow', sans-serif;
   font-weight: 400;
+  color: rgb(182, 21, 155);
 }
   
 h1 {
@@ -14,7 +15,7 @@ h1 {
   
 h2 {
   text-align: center;
-  border: 2px outset #00ccfd;
+  border: 2px outset aqua;
   font-size: 22px;
   background-color: aqua;
 }
@@ -52,7 +53,6 @@ p {
   float: right;
   padding: 20px;
   margin: 15px;
-  padding-left: 8px;
   border: 5px outset #00ccfd;
   box-shadow: 0 0 30px #55e7ff;
   background: linear-gradient(#ff34b3, #2011a2);
@@ -70,19 +70,10 @@ p {
   background: linear-gradient(#2011a2, #ff34b3);
 }
 
-#burgerSet {
-  bottom: 0;
-  margin-left: 60px;
-  padding-top: 30px;
-}
-
-#burger1, #burger2, #burger3 {
+img {
+  float: left;
+  margin: 20px;
   margin-top: 40px;
-}
-
-#submitBurger, .changeDevour, .deleteBurger {
-  border: 3px outset #00ccfd;
-  background-color: aqua;
 }
   
 /* .container {

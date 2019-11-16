@@ -1,13 +1,9 @@
 <li>
+	<h3>{{burger_name}}</h3>
 
-	<div id="burgerBlock" class="wrapper">
+	<button class="change-devour" data-id="{{id}}" data-newdevour="{{devoured}}">
+		Devour It!
+	</button>
 
-		<h3>{{burger_name}}</h3>
-
-		<button class="changeDevour" data-id="{{id}}" data-newdevour="{{devoured}}">Devour It!</button>
-
-		<button class="deleteBurger" data-id="{{this.id}}">DELETE!</button>
-
-	</div>
-
+	<button class="delete-burger" data-id="{{this.id}}">DELETE!</button>
 </li>
